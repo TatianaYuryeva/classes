@@ -19,37 +19,37 @@ export class Character {
 }
 
 export class Boweman extends Character {
-  attack = 25;
-
-  defence = 25;
+  constructor(name, type, attack = 25, defence = 25) {
+    super(name, type, attack, defence);
+  }
 }
 
 export class Swordsman extends Character {
-  attack = 40;
-
-  defence = 10;
+  constructor(name, type, attack = 40, defence = 10) {
+    super(name, type, attack, defence);
+  }
 }
 
 export class Magician extends Character {
-  attack = 10;
-
-  defence = 40;
+  constructor(name, type, attack = 10, defence = 40) {
+    super(name, type, attack, defence);
+  }
 }
 
 export class Daemon extends Character {
-  attack = 10;
-
-  defence = 40;
+  constructor(name, type, attack = 10, defence = 40) {
+    super(name, type, attack, defence);
+  }
 }
 
 export class Undead extends Character {
-  attack = 25;
-
-  defence = 25;
+  constructor(name, type, attack = 25, defence = 25) {
+    super(name, type, attack, defence);
+  }
 }
 
 export class Zombie extends Character {
-  attack = 40;
-
-  defence = 10;
+  constructor(name, type, attack = 40, defence = 10) {
+    super(name, type, attack, defence);
+  }
 }
